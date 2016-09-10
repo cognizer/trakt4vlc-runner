@@ -26,8 +26,8 @@ setup(
         'trakt4vlc_runner': 'trakt4vlc_runner',
     },
     install_requires=[
-        'requests_cache',
-        'requests',
+        'requests_cache==0.4.9',
+        'requests==2.6.0',
     ],
     license='WTFPL'
 )
