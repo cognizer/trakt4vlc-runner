@@ -21,6 +21,8 @@ def main():
     pidfile = ""
     config = ""
 
+    LOG_LEVEL = None
+
     def help():
         helpstr = [
             'Available options:',
