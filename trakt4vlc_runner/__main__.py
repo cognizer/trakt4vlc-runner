@@ -8,8 +8,10 @@ import sys
 import getopt
 import pkg_resources
 import logging
+
 sys.path.append(pkg_resources.resource_filename(__name__, ''))
 sys.path.append(pkg_resources.resource_filename(__name__, 'trakt4vlc'))
+
 import TraktForVLC as trakt
 
 def main():
