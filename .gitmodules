@@ -1,0 +1,3 @@
+[submodule "trakt4vlc_runner/trakt4vlc"]
+	path = trakt4vlc_runner/trakt4vlc
+	url = https://github.com/XaF/TraktForVLC.git
